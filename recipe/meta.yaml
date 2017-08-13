@@ -25,10 +25,15 @@ test:
     - cycler
 
 about:
-  home: http://github.com/matplotlib/cycler
+  home: http://matplotlib.org/cycler
   license: BSD 3-Clause
   license_file: LICENSE
   summary: 'Composable style cycles.'
+  description: |
+    Cycler is a package used to create composable style cycles.
+  doc_url: http://matplotlib.org/cycler/
+  doc_source_url: https://github.com/matplotlib/cycler/blob/master/doc/source/index.rst
+  dev_url: https://github.com/matplotlib/cycler
 
 extra:
   recipe-maintainers:
