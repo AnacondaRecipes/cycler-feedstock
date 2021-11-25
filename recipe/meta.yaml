@@ -12,7 +12,8 @@ source:
 build:
   number: 0
   skip: True  # [py<36]
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -28,6 +29,7 @@ test:
     - cycler
   requires:
     - pip
+    - python <3.10
   commands:
     - pip check
 
