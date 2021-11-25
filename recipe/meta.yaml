@@ -7,7 +7,7 @@ package:
 source:
   url: https://github.com/matplotlib/cycler/archive/v{{ version }}.tar.gz
   fn: cycler-v{{ version }}.tar.gz
-  sha256: 9c87405839a19696e837b3b818fed3f5f69f16f1eec1a1ad77e043dcea9c772f
+  sha256: 2530b40270be9e5e8c5f570d15a934c5dc9737ce3f3ba54307b371655e48e7e4
 
 build:
   number: 0
