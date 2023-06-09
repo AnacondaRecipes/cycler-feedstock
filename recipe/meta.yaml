@@ -11,7 +11,7 @@ source:
 
 build:
   number: 1
-  skip: True  # [py<36]
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
@@ -28,7 +28,6 @@ test:
     - cycler
   requires:
     - pip
-    - python <3.10
   commands:
     - pip check
 
